@@ -1,5 +1,4 @@
-# NODE-JS-BASIC
-NODE JS BASIC TOPIC COVER IN THIS MY REPO
+
 In an Express.js application, both bodyParser.json() and bodyParser.urlencoded() middleware are commonly used to handle incoming HTTP request bodies, but they serve different purposes.
 
 bodyParser.json({ limit: '5mb' }): This middleware is used to parse incoming JSON data from the request body. The { limit: '5mb' } option sets a maximum size limit of 5 megabytes for JSON data that can be received in a single request. This is particularly useful when you want to restrict the size of JSON payloads to prevent excessive memory consumption or denial-of-service attacks. It's important to set an appropriate limit based on your application's needs.
